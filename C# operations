@@ -10,17 +10,17 @@ internal class Program
        Convert.ToDouble(y);
        Console.WriteLine($"your numbers are {x} and {y}");
        Console.WriteLine("Now choose what do you want to do, Addition, Substraction, Multiplication or Division. You can only type 1 of these types");
-       string praksi= Console.ReadLine();
-       if (praksi=="Addition") {
+       string newOperation= Console.ReadLine();
+       if (newOperation=="Addition") {
        Double z=(Convert.ToDouble(x) +Convert.ToDouble(y));
        Console.WriteLine(z);}
-       else if  (praksi=="Substraction") {
+       else if  (newOperation=="Substraction") {
       Double z=(Convert.ToDouble(x) -Convert.ToDouble(y));
        Console.WriteLine(z);
-       }else if (praksi=="Multiplication") {
+       }else if (newOperation=="Multiplication") {
        Double z=(Convert.ToDouble(x) *Convert.ToDouble(y));
        Console.WriteLine(z);
-       }else if (praksi=="Division") {
+       }else if (newOperation=="Division") {
        Double z=(Convert.ToDouble(x) /Convert.ToDouble(y));
        Console.WriteLine(z);
        }else {
