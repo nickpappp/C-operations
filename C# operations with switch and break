@@ -1,0 +1,37 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+Console.WriteLine("choose 2 numbers");
+string x = Console.ReadLine();
+string y = Console.ReadLine();
+Convert.ToDouble(x);
+Convert.ToDouble(y);
+Console.WriteLine($"your numbers are {x} and {y}");
+Console.WriteLine("Now choose what do you want to do, Addition, Substraction, Multiplication or Division.Type 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division. If you type incorectly an error message will appear");
+string operation= Console.ReadLine();
+double operationn=Convert.ToDouble(operation);
+switch (operationn)
+{
+    case 1:
+        Double z = (Convert.ToDouble(x) + Convert.ToDouble(y));
+        Console.WriteLine(z);
+        break;
+    case 2:
+        Double k = (Convert.ToDouble(x) - Convert.ToDouble(y));
+        Console.WriteLine(k);
+        break;
+    case 3:
+        Double l = (Convert.ToDouble(x) * Convert.ToDouble(y));
+        Console.WriteLine(l);
+        break;
+    case  4:
+        Double m = (Convert.ToDouble(x) / Convert.ToDouble(y));
+        Console.WriteLine(m);
+        break;
+    default:
+        Console.WriteLine("You aren't doing neither Addition nor Substraction nor Multiplication nor Division!");
+        break;
+  }
+ }
+}
