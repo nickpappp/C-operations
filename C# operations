@@ -1,0 +1,33 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+      
+       Console.WriteLine("choose 2 numbers");
+       string x=Console.ReadLine();
+       string y=Console.ReadLine();
+       Convert.ToDouble(x);
+       Convert.ToDouble(y);
+       Console.WriteLine($"your numbers are {x} and {y}");
+       Console.WriteLine("Now choose what do you want to do, Addition, Substraction, Multiplication or Division. You can only type 1 of these types");
+       string praksi= Console.ReadLine();
+       if (praksi=="Addition") {
+       Double z=(Convert.ToDouble(x) +Convert.ToDouble(y));
+       Console.WriteLine(z);}
+       else if  (praksi=="Substraction") {
+      Double z=(Convert.ToDouble(x) -Convert.ToDouble(y));
+       Console.WriteLine(z);
+       }else if (praksi=="Multiplication") {
+       Double z=(Convert.ToDouble(x) *Convert.ToDouble(y));
+       Console.WriteLine(z);
+       }else if (praksi=="Division") {
+       Double z=(Convert.ToDouble(x) /Convert.ToDouble(y));
+       Console.WriteLine(z);
+       }else {
+        Console.WriteLine("You aren't doing neither Addition nor Substraction nor Multiplication nor Division!  ");
+       
+       }
+
+       
+    }
+}
