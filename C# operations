@@ -15,7 +15,7 @@ internal class Program
        Double z=(Convert.ToDouble(x) +Convert.ToDouble(y));
        Console.WriteLine(z);}
        else if  (newOperation=="Substraction") {
-      Double z=(Convert.ToDouble(x) -Convert.ToDouble(y));
+       Double z=(Convert.ToDouble(x) -Convert.ToDouble(y));
        Console.WriteLine(z);
        }else if (newOperation=="Multiplication") {
        Double z=(Convert.ToDouble(x) *Convert.ToDouble(y));
