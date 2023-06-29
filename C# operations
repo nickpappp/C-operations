@@ -24,7 +24,7 @@ internal class Program
        Double z=(Convert.ToDouble(x) /Convert.ToDouble(y));
        Console.WriteLine(z);
        }else {
-        Console.WriteLine("You aren't doing neither Addition nor Substraction nor Multiplication nor Division!  ");
+        Console.WriteLine("You aren't doing neither Addition nor Substraction nor Multiplication nor Division!");
        
        }
 
